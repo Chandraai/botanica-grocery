@@ -1,0 +1,23 @@
+{
+  "name": "botanica-grocery-backend",
+  "version": "1.0.0",
+  "description": "Botanica Grocery - Backend API Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.0",
+    "express-rate-limit": "^8.4.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb-memory-server": "^11.0.1",
+    "mongoose": "^9.5.0",
+    "razorpay": "^2.9.6",
+    "uuid": "^9.0.1"
+  }
+}

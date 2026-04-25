@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800 antialiased font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-botanica-green hover:bg-botanica-dark text-white font-bold py-2 px-4 rounded transition-colors duration-200 shadow-md;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-botanica-green text-botanica-green hover:bg-botanica-light font-bold py-2 px-4 rounded transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden border border-gray-100;
+  }
+
+  .input-field {
+    @apply w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-botanica-accent focus:border-transparent transition-all;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(12deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(18deg);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

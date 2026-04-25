@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ORD-7D0155FA",
+    "customerName": "chandra",
+    "phone": "prakash",
+    "address": "aks",
+    "items": [
+      {
+        "id": "cart_1777127620187",
+        "productId": "p001",
+        "name": "Fresh Tomatoes",
+        "price": 2.99,
+        "image": "🍅",
+        "unit": "1 kg",
+        "quantity": 1
+      },
+      {
+        "id": "cart_1777127621289",
+        "productId": "p002",
+        "name": "Golden Potatoes",
+        "price": 2.49,
+        "image": "🥔",
+        "unit": "1 kg",
+        "quantity": 1
+      },
+      {
+        "id": "cart_1777127622955",
+        "productId": "p003",
+        "name": "Red Onions",
+        "price": 1.99,
+        "image": "🧅",
+        "unit": "1 kg",
+        "quantity": 1
+      },
+      {
+        "id": "cart_1777127624455",
+        "productId": "p004",
+        "name": "Fresh Spinach",
+        "price": 3.49,
+        "image": "🥬",
+        "unit": "250 g",
+        "quantity": 1
+      }
+    ],
+    "subtotal": 10.96,
+    "deliveryFee": 5,
+    "totalAmount": 15.96,
+    "status": "confirmed",
+    "createdAt": "2026-04-25T14:34:14.346Z"
+  }
+]
